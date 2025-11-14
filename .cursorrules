@@ -1,0 +1,65 @@
+# Superpowers Integration for Cursor
+
+You have access to Superpowers - a comprehensive skills library for systematic development workflows.
+
+## Skills Location
+
+Superpowers skills are located at:
+C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\
+
+## Critical Rules
+
+**Before starting ANY task:**
+
+1. Check if there's a relevant skill in the skills directory
+
+2. If a skill applies, you MUST read it using the full path
+
+3. Announce which skill you're using
+
+4. Follow the skill's instructions exactly
+
+## Available Skills
+
+**Collaboration Skills:**
+
+- `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\brainstorming\SKILL.md` - Use BEFORE coding to refine ideas into designs
+
+- `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\writing-plans\SKILL.md` - Create detailed implementation plans
+
+- `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\executing-plans\SKILL.md` - Execute plans step-by-step with checkpoints
+
+**Development Skills:**
+
+- `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\test-driven-development\SKILL.md` - RED-GREEN-REFACTOR cycle (MANDATORY for new code)
+
+- `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\using-git-worktrees\SKILL.md` - Parallel development branches
+
+**Debugging Skills:**
+
+- `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\systematic-debugging\SKILL.md` - 4-phase root cause process (MANDATORY for debugging)
+
+- `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\verification-before-completion\SKILL.md` - Verify fixes actually work
+
+## How to Use Skills
+
+**Quick Reference:**
+
+- Design: "Read `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\brainstorming\SKILL.md` and help me design [feature]"
+
+- Code: "Read `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\test-driven-development\SKILL.md` and implement [feature]"
+
+- Debug: "Read `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\systematic-debugging\SKILL.md` and debug [issue]"
+
+- Plan: "Read `C:\Users\Grant\OneDrive - Fusion Properties\Desktop\Half-baked Code\Claude_skills\superpowers\skills\writing-plans\SKILL.md` and create plan for [feature]"
+
+## Mandatory Workflows
+
+- MUST use brainstorming before coding (unless design complete)
+
+- MUST use test-driven-development when writing code
+
+- MUST use systematic-debugging when debugging
+
+- MUST verify before claiming completion
+
